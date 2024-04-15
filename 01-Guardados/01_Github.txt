@@ -1,0 +1,125 @@
+copia: <-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>l<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x->
+<-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Test-Driven Development with Python, Flask, and Docker<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x->
+<-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>TestDriven.io<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x->
+Login: dignus07@gmail.com
+Senha: eu10@TestDrivenioDignux
+<-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>GITHUB<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x->
+link::  link: https://github.com/dignus07/curso-flask-tdd-docker.git
+
+<-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>repositório no github<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x->
+…or create a new repository on the command line
+
+echo "# curso-flask-tdd-docker" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/dignus07/curso-flask-tdd-docker.git
+git push -u origin main
+
+<-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>x<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x->
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/dignus07/curso-flask-tdd-docker.git
+git branch -M main
+git push -u origin main
+
+<-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>COMANDOS DO GIT<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x->
+<-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Listar os Branch<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x->
+git branch --list
+<-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Ver todos os commits: <|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x->
+git log
+sair q
+
+
+<-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Git commands roteiro Geral<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x->
+<-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Git commands roteiro Geral<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x->
+git status
+git add .
+git status
+=>date on the CLI (Comand line Interface)
+=>copia a data no CLI
+git commit -m "cola a data aqui"
+git commit -m "Seg 15 Abr 2024 10:29:25"
+git push -u origin main
+
+
+
+
+
+
+
+
+
+
+
+
+<-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>RESOLUÇÃO DE ERROS DO GIT<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x->
+<-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>RESOLUÇÃO<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x->
+MSG DE ERROR:  RESOLUÇÃO:
+
+<-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>RESOLUÇÃO<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x->
+MSG DE ERROR:
+=> The file will have its original line endings in your working directory.
+
+RESOLUÇÃO:
+=>git config --global core.autocrlf false
+
+<-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>RESOLUÇÃO<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x->
+<-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>RESOLUÇÃO<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x->
+MSG DE ERROR:  RESOLUÇÃO:
+
+
+
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 00<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 01<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 02<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 03<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 04<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 05<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 06<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 07<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 08<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 09<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 10<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 11<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 12<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 13<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 14<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 15<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 16<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 17<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 18<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 19<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 20<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 21<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 22<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 23<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 24<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 25<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 26<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 27<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 28<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 29<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 30<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 31<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 32<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 33<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 34<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 35<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 36<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 37<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 38<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 39<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 40<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 41<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 42<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 43<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 44<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 45<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 46<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 47<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 48<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 49<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+<|-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>Step: 50<|x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-|>
+
